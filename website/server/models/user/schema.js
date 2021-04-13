@@ -141,6 +141,7 @@ export default new Schema({
     seeingRed: Boolean,
     redLetterDay: Boolean,
     legendaryBestiary: Boolean,
+    seasonalSpecialist: Boolean,
     // Onboarding Guide
     createdTask: Boolean,
     completedTask: Boolean,
@@ -596,7 +597,7 @@ export default new Schema({
       $type: Number,
       default: 1,
       min: 1,
-      max: 999,
+      max: shared.constants.MAX_LEVEL_HARD_CAP,
     },
 
     // Class System
