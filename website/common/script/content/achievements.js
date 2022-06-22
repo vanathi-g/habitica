@@ -183,6 +183,11 @@ const animalSetAchievs = {
     titleKey: 'achievementDomesticated',
     textKey: 'achievementDomesticatedText',
   },
+  reptacularRumble: {
+    icon: 'achievement-reptacularRumble',
+    titleKey: 'achievementReptacularRumble',
+    textKey: 'achievementReptacularRumbleText',
+  },
   zodiacZookeeper: {
     icon: 'achievement-zodiac',
     titleKey: 'achievementZodiacZookeeper',
@@ -297,16 +302,6 @@ const mountColorAchievs = {
     titleKey: 'achievementShadeOfItAll',
     textKey: 'achievementShadeOfItAllText',
   },
-  zodiacZookeeper: {
-    icon: 'achievement-zodiac',
-    titleKey: 'achievementZodiacZookeeper',
-    textKey: 'achievementZodiacZookeeperText',
-  },
-  birdsOfAFeather: {
-    icon: 'achievement-birdsOfAFeather',
-    titleKey: 'achievementBirdsOfAFeather',
-    textKey: 'achievementBirdsOfAFeatherText',
-  },
 };
 Object.assign(achievementsData, mountColorAchievs);
 
@@ -376,6 +371,11 @@ const specialAchievs = {
     icon: 'achievement-kickstarter2019',
     titleKey: 'achievementKickstarter2019',
     textKey: 'achievementKickstarter2019Text',
+  },
+  groupsBeta2022: {
+    icon: 'achievement-groupsBeta2022',
+    titleKey: 'achievementGroupsBeta2022',
+    textKey: 'achievementGroupsBeta2022Text',
   },
 };
 Object.assign(achievementsData, specialAchievs);
